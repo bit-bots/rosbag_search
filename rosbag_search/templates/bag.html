@@ -6,42 +6,53 @@
 		<script src="https://cdn.tailwindcss.com"></script>
 		<title>Data Display</title>
 	</head>
-	<body class="bg-orange-100">
+	<body class="bg-indigo-100">
 		<div class="container mx-auto">
-			<h1 class="text-6xl mt-10 mb-10 font-light">ID_amy_2024-07-18T10:26:27</h1>
-			<div class="flex gap-6 mb-10 font-light text-lg text-white">
+			<h1 class="text-6xl mt-10 mb-10 font-normal">ID_amy_2024-07-18T10:26:27</h1>
+			<div class="flex gap-6 mb-10 font-normal text-lg text-white">
 				<div class="rounded-xl p-3 bg-stone-800">18.07.2024 10:26</div>
 				<div class="rounded-xl p-3 bg-stone-800">Amy</div>
 				<div class="rounded-xl p-3 bg-stone-800">Drop-In WM 2024</div>
 			</div>
 
-			<div class="text-xl font-medium rounded-2xl overflow-hidden">
-				<table class="table-fixed w-full">
-					<thead>
-						<tr class="bg-stone-800 text-2xl text-white">
-							<th class="p-3 text-left font-extralight rounded-bl-lg">Topics</th>
-							<th class="p-3 text-left font-extralight rounded-br-lg">Message Types</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="p-3">/rosout</td>
-							<td class="p-3">rcl_interfaces/msg/Log</td>
-						</tr>
-						<tr class="bg-white">
-							<td class="p-3 rounded-l-lg">/pose_with_covariance</td>
-							<td class="p-3 rounded-r-lg">geometry_msgs/msg/PoseWithCovarianceStamped</td>
-						</tr>
-						<tr>
-							<td class="p-3">/test</td>
-							<td class="p-3">geometry_msgs/msg/blub</td>
-						</tr>
-						<tr class="bg-white">
-							<td class="p-3 rounded-l-lg">/pose_with_doctor_who</td>
-							<td class="p-3 rounded-r-lg">geometry_msgs/msg/PoseYes</td>
-						</tr>
-					</tbody>
-				</table>
+			<div class="text-2xl font-medium">
+				<div class="bg-stone-800 text-white p-4 mb-4 rounded-xl">
+					<div class="flex justify-between items-center">
+						<span class="font-light">
+							<span class="font-medium">/rosout</span>
+						</span>
+						<span class="text-stone-100 font-light">rcl_interfaces/msg/Log</span>
+					</div>
+				</div>
+
+				<div class="bg-white p-4 mb-4 rounded-xl">
+					<div class="flex justify-between items-center">
+						<span class="font-medium">
+							<span class="font-semibold">/pose_with_covariance</span>
+						</span>
+						<span class="text-stone-900 font-light">
+							geometry_msgs/msg/PoseWithCovarianceStamped
+						</span>
+					</div>
+				</div>
+
+				<div class="bg-stone-800 text-white p-4 mb-4 rounded-xl">
+					<div class="flex justify-between items-center">
+						<span class="font-light">
+							<span class="font-medium">/test</span>
+						</span>
+						<span class="text-stone-100 font-light">geometry_msgs/msg/blub</span>
+					</div>
+				</div>
+
+				<div class="bg-white p-4 mb-4 rounded-xl">
+					<div class="flex justify-between items-center">
+						<span class="font-medium">
+							<span class="font-semibold">/pose_with_doctor_who</span>
+						</span>
+						<span class="text-stone-900 font-light">geometry_msgs/msg/PoseYes</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
