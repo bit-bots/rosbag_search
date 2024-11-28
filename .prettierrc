@@ -1,0 +1,20 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "useTabs": true,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "printWidth": 100,
+        "tabWidth": 3,
+        "singleQuote": true,
+        "htmlWhitespaceSensitivity": "ignore",
+        "useTabs": true
+      }
+    }
+  ]
+}
