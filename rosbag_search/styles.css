@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Button */
+.btn {
+  @apply rounded-xl p-3 bg-stone-800 text-white cursor-pointer;
+}
+
+/* Badge */
+.badge {
+  @apply rounded-xl p-3 bg-stone-800 text-white;
+}
+
+/* Card */
+.card {
+  @apply bg-white p-4 rounded-xl;
+}
+
+.card-header {
+  @apply flex justify-between items-center;
+}
+
+.badge-count {
+  @apply text-white font-light rounded-lg px-3 py-1 bg-stone-800;
+}
+
+.grid-responsive {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+}
